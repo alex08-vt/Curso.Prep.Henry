@@ -27,26 +27,27 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // Devuelve la string "str"
-  console.log ("str")
+    return str
 }
 
 function suma(x, y) {
   // Devuelve la suma de "x" y "y"
-
-  console.log (x+y)
+   
+  return (x+y)
 }
 
 function resta(x, y) {
-  console.log(x-y)
+
+  return (x-y)
   
 }
 
 function multiplica(x, y) {
-  console.log(x*y)
+  return(x*y)
 }
 
 function divide(x, y) {
-  console.log(x/y)
+  return(x/y)
   
 }
 
@@ -54,7 +55,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" y "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(x===y)
+  return(x===y)
   
 }
 
@@ -62,78 +63,78 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(str1.length===str2.length)
+  return(str1.length===str2.length)
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(num<90)
+  return(num<90)
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(num>50)
+  return(num>50)
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  console.log(x%y)
+  return(x%y)
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(num%2===0)
+  return(num%2===0)
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  console.log(num%2!==0)
+  return(num%2!==0)
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  console.log(num*num)
+  return(num*num)
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-console.log(num*num*num)  
+  return(num*num*num)  
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  console.log(num**exponent)
+  return(num**exponent)
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  console.log(Math.round(num))
+  return(Math.round(num))
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  console.log(Math.ceil(num))
+  return(Math.ceil(num))
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  console.log(Math.random(0,1))
+  return(Math.random(0,1))
 
 }
 
@@ -142,48 +143,48 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  console.log(numero>0)
+  return(numero>0)
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  console.log(str+"!")
+  return(str+"!")
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  console.log(nombre+" "+apellido)
+  return(nombre+" "+apellido)
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  console.log("Hola "+nombre+"!")
+  return"Hola "+nombre+"!")
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  console.log(alto*ancho)
+  return(alto*ancho)
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  console.log(lado*4)
+  return(lado*4)
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-console.log(base*altura/2)
+  return(base*altura/2)
 }
 
 
@@ -191,7 +192,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  console.log(euro*1.20)
+  return(euro*1.20)
 }
 
 
@@ -201,7 +202,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  console.log(letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u")
+  return(letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u")
 }
 
 
