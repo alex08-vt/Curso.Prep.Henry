@@ -1,0 +1,10 @@
+
+Hola niño de 12 años, ¿cómo te llamas?. Te cuento, una variable es un espacio de memoria en la computadora, donde podemos guardar información que depues podemos usar.
+un string es un tipo de variable que guarda una cadena de letras o caracteres. 
+
+te cuento que una funcion es una serie de instrucciones que se ejecutan en orden.
+
+Una declaracion if es una condicion que se ejecuta si se cumple o no.
+
+valores booleanos son los que nos permiten decir si una condicion es verdadera o falsa.
+
